@@ -15,6 +15,7 @@
 		815F6A1A29B5F8AE005FC247 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 815F6A1829B5F8AD005FC247 /* data.json */; };
 		815F6A1B29B5F8AE005FC247 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 815F6A1929B5F8AE005FC247 /* style.html */; };
 		815F6A1D29B600C4005FC247 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6A1C29B600C4005FC247 /* Models.swift */; };
+		815F6A1F29B61808005FC247 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6A1E29B61808005FC247 /* HomeViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		815F6A1829B5F8AD005FC247 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		815F6A1929B5F8AE005FC247 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		815F6A1C29B600C4005FC247 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		815F6A1E29B61808005FC247 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,8 @@
 		815F6A1129B5E77B005FC247 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				815F6A0529B5E6F6005FC247 /* HomeView.swift */,
+				815F6A1E29B61808005FC247 /* HomeViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,7 +93,6 @@
 		815F6A1229B5E783005FC247 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				815F6A0529B5E6F6005FC247 /* HomeView.swift */,
 				815F6A1629B5E7F8005FC247 /* ContentModel.swift */,
 			);
 			path = ViewModels;
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				815F6A0629B5E6F6005FC247 /* HomeView.swift in Sources */,
+				815F6A1F29B61808005FC247 /* HomeViewRow.swift in Sources */,
 				815F6A0429B5E6F6005FC247 /* LearningApp.swift in Sources */,
 				815F6A1729B5E7F8005FC247 /* ContentModel.swift in Sources */,
 				815F6A1D29B600C4005FC247 /* Models.swift in Sources */,
