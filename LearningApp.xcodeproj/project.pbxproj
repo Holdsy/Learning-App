@@ -16,6 +16,8 @@
 		815F6A1B29B5F8AE005FC247 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 815F6A1929B5F8AE005FC247 /* style.html */; };
 		815F6A1D29B600C4005FC247 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6A1C29B600C4005FC247 /* Models.swift */; };
 		815F6A1F29B61808005FC247 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6A1E29B61808005FC247 /* HomeViewRow.swift */; };
+		815F6A2329B63359005FC247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6A2229B63359005FC247 /* ContentView.swift */; };
+		815F6A2529B64D50005FC247 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F6A2429B64D50005FC247 /* ContentViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		815F6A1929B5F8AE005FC247 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		815F6A1C29B600C4005FC247 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		815F6A1E29B61808005FC247 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		815F6A2229B63359005FC247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		815F6A2429B64D50005FC247 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				815F6A0329B5E6F6005FC247 /* LearningApp.swift */,
-				815F6A1229B5E783005FC247 /* ViewModels */,
 				815F6A1129B5E77B005FC247 /* Views */,
+				815F6A1229B5E783005FC247 /* ViewModels */,
 				815F6A1329B5E78D005FC247 /* Models */,
 				815F6A1529B5E7A7005FC247 /* Resources */,
 				815F6A1429B5E798005FC247 /* Helpers */,
@@ -86,6 +90,8 @@
 			children = (
 				815F6A0529B5E6F6005FC247 /* HomeView.swift */,
 				815F6A1E29B61808005FC247 /* HomeViewRow.swift */,
+				815F6A2229B63359005FC247 /* ContentView.swift */,
+				815F6A2429B64D50005FC247 /* ContentViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,7 +202,9 @@
 			files = (
 				815F6A0629B5E6F6005FC247 /* HomeView.swift in Sources */,
 				815F6A1F29B61808005FC247 /* HomeViewRow.swift in Sources */,
+				815F6A2329B63359005FC247 /* ContentView.swift in Sources */,
 				815F6A0429B5E6F6005FC247 /* LearningApp.swift in Sources */,
+				815F6A2529B64D50005FC247 /* ContentViewRow.swift in Sources */,
 				815F6A1729B5E7F8005FC247 /* ContentModel.swift in Sources */,
 				815F6A1D29B600C4005FC247 /* Models.swift in Sources */,
 			);
